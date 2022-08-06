@@ -4,6 +4,13 @@
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
 }
+.share-form ul{
+ list-style-type: none;
+}
+.share-form ul li a{
+   display: flex;
+   text-decoration: none;
+   }
 .notify-container{
     width: 100%;
     max-width: 1950px;
@@ -460,7 +467,8 @@ li a .li-img img{
         font-size: clamp(1.9rem, 2.5vw, 2.2rem);
     }
     .overlay .share-form{
-        width: 65%;
+        /* width: 65%; */
+        width: fit-content;
         left: 17.5%;
     }
     .notify-background{
@@ -558,7 +566,8 @@ li a .li-img img{
         line-height: 2rem; 
     }
     .overlay .share-form{
-        width: 70%;
+        /* width: 70%; */
+        width: fit-content;
         left: 15%;
     }
 }
@@ -683,7 +692,8 @@ li a .li-img img{
         padding: 1.3rem 2.4rem;
     }
     .overlay .share-form{
-        width: 75%;
+        /* width: 75%; */
+        width: fit-content;
         left: 12.5%;
     }
     .overlay .share-form li a{
@@ -697,7 +707,8 @@ li a .li-img img{
         line-height: 1.8rem; 
     }
     .overlay .share-form{
-        width: 70%;
+        /* width: 70%; */
+        width: fit-content;
         left: 15%;
     }
 }
@@ -724,7 +735,8 @@ li a .li-img img{
         line-height: 3.5rem;
     }
     .overlay .share-form{
-        width: 75%;
+        /* width: 75%; */
+        width: fit-content;
         left: 12.5%;
     }
     .overlay .share-form li a{
@@ -780,7 +792,8 @@ li a .li-img img{
         border-radius: 1.06rem;
     }
     .overlay .share-form{
-        width: 73%;
+        /* width: 33%; */
+        width: fit-content;
         left: 13.5%;
     }
     .logo{
@@ -850,7 +863,8 @@ li a .li-img img{
         line-height: 1.5rem; 
     }
     .overlay .share-form{
-        width: 90%;
+        /* width: 50%; */
+        width: fit-content;
         left: 5%;
         top: 24.3%;
         border-radius: 1.8rem;
@@ -885,7 +899,8 @@ li a .li-img img{
         line-height: 1.4rem; 
     }
     .overlay .share-form{
-        width: 90%;
+        /* width: 50%; */
+        width: fit-content;
         left: 5%;
         top: 24.3%;
     }

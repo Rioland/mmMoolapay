@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moola Pay</title>
+    <link rel="shortcut icon" href="images/logo_logo icon blue copy.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/about.css">
 <link rel="stylesheet" href="css/waitlist.css">
+<script src="./jquery-3.5.1.js"></script>
 </head>
 <body>
     <div class="waitlist-contain">
@@ -45,7 +47,7 @@
                         <div class="text-box text-box2">
                         <input type="email" name="email" id="email" placeholder="Email Address">
                         </div>
-                        <a href="notify" class="form-btn"><p>Get Notified</p></a>
+                        <a id="submit" class="form-btn" style="cursor: pointer;"><p>Get Notified</p></a>
                     </div>
                 </div>
             </div>
@@ -55,5 +57,34 @@
     <?php  
   require("./footer.php")
     ?>
+     <script>
+      $(document).ready(function () {
+        $("#submit").click(function (e) {
+            e.preventDefault();
+        const name= $("#fname").val()
+        const email=$("#email").val()
+        if(name && email){
+         $.ajax({
+             type: "POST",
+             url: "handler",
+             data: {
+                 fullname:name,
+                 email:email
+             },
+             dataType: "text",
+             success: function (response) {
+                 if(response==true){
+                     window.location.href="./notify";
+                 }else{
+                    alert(response)
+                 }
+             }
+         });
+        }else{
+        alert("All fields are required")
+        }
+        });
+      });
+    </script>
 </body>
 </html>

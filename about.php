@@ -11,6 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/about.css">
+    
+<link rel="shortcut icon" href="images/logo_logo icon blue copy.png" type="image/x-icon">
 </head>
 <body>
     <div class="contain">

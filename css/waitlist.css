@@ -133,6 +133,7 @@ input::placeholder {
 }
 .form-waitlist .form-btn p{
     font-size: clamp(1.2rem, 1.8vw + 1rem, 1.6rem);
+    margin-bottom: 0;
 }
 @media only screen and (min-width:1301px) and (max-width:1400px){
     .wait-text h1{
@@ -586,22 +587,10 @@ input::placeholder {
     .waitlist-background{
         padding: 3rem 2rem;
     }
-    .navbar3 .logo1 a{
-        padding-top: -1rem;
+    div.navbar{
+        padding-top: 0;
     }
-    .navbar3 .logo1 a .img-logo1{
-        width: 60px;
-        height: 60px;
-    }
-    .navbar3 .logo1 a .img-logo2{
-        width: 120px;
-        height: 120px;
-    }
-    .navbar3{
-        height: 80px;
-        padding-left: 2rem;
-        padding-right: 1rem;
-    }
+    
     .waitlist-btn{
         margin-top: 1.3rem;
     }

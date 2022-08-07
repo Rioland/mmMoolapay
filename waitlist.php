@@ -14,6 +14,8 @@
 <link rel="stylesheet" href="css/about.css">
 <link rel="stylesheet" href="css/waitlist.css">
 <script src="./jquery-3.5.1.js"></script>
+
+
 </head>
 <body>
     <div class="waitlist-contain">
@@ -53,7 +55,7 @@
             </div>
         </div>
     </div>
-
+    
     <?php  
   require("./footer.php")
     ?>

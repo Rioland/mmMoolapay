@@ -129,7 +129,8 @@
 }
 .enjoy1 .waitlist-btn{
     line-height: 6rem;
-    padding: .9rem 2.5rem;
+    padding: 1rem 2.6rem;
+    font-size: 1.7rem;
 }
  .enjoy3{
     display: grid;
@@ -152,6 +153,9 @@
     margin-top: 3.2rem;
     position: relative;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .first img{
     width: 100%;
@@ -206,7 +210,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    top: 32%;
+    top: 30%;
     justify-content: center;
     text-align: justify;
     left: 10%;
@@ -231,8 +235,15 @@
     letter-spacing: .7px;
     font-weight: 100;
 }
+p.p-one{
+    margin-bottom: 0;
+}
 .first1{
     top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 .first2{
     top: 27%;
@@ -1406,6 +1417,9 @@
     .first1{
         top: 33%;
     }
+    .first2{
+        top: 22%;
+    }
     .navbar .logo a .img-logo2{
         width: 9rem;
         height: auto;
@@ -1695,6 +1709,9 @@
         width: 6.7rem;
         height: auto;
      }
+     p.p-two{
+        margin-bottom: 0;
+     }
      .navbar .logo a .img-logo1{
         width: 3.2rem;
         height: auto;
@@ -1801,7 +1818,7 @@
         margin-top: 1.3rem;
     }
     .enjoy1 .waitlist-btn{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .first-text .icon{
         width: 1.95rem;
@@ -1891,8 +1908,8 @@
         margin-top: -2rem;
     }
     .enjoy1 .waitlist-btn{
-        padding: .7rem 1.5rem;
-        font-size: .9rem;
+        padding: .9rem 1.7rem;
+        font-size: 1.3rem;
     }
 }
 @media only screen and (max-width:821px){
@@ -2128,6 +2145,11 @@
     .navbar .logo{
         margin-bottom: 1.2rem;
     }
+    .enjoy1 .waitlist-btn{
+        line-height: 6rem;
+        padding: .65rem 1.8rem;
+        font-size: 1.3rem;
+    }
 }
 @media only screen and (max-width:641px){
     .background{
@@ -2196,11 +2218,11 @@
         margin-top: 2.9rem;
     }
     .down{
-        width: 9rem;
+        width: 12rem;
         display: block;
         margin-top: 5rem;
-        padding: .8rem -2rem;
-        font-size: 1rem;
+        padding: 5rem -2rem;
+        font-size: 1.6rem;
         margin-left: 30%;
         margin-right: 30%;
     }
@@ -2277,6 +2299,15 @@
     }
     .fourth{
         margin-top: 2.7rem;
+    }
+    .down{
+        width: 12rem;
+        display: block;
+        margin-top: 5rem;
+        padding: 5rem -2rem;
+        font-size: 1.6rem;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
 @media only screen and (max-width:535px){
@@ -2364,7 +2395,9 @@
         height: auto;
      }
      .down{
-        width: 7rem;
+        width: 10rem;
+        padding: 4rem -2rem;
+        font-size: 1.4rem;
     }
 }
 @media only screen and (max-width:469px){
@@ -2398,7 +2431,7 @@
         font-size: 1rem;
     }
     .icon .bx-check{
-        margin-top: .15rem;
+        margin-top: .05rem;
     }
     .background{
         height: 16.4rem;
@@ -2482,6 +2515,9 @@
     width: 2.5rem;
     height: auto;
  }
+ .first2{
+    top: 16%;
+ }
 }
 @media only screen and (max-width:412px){
     .back-text h1{
@@ -2500,9 +2536,6 @@
         height: 1.2rem;
         font-size: 1rem;
     }
-    .icon .bx-check{
-        margin-top: .07rem;
-    }
     .first-text .texts{
         font-size: .9rem;
         margin-left: .5rem;
@@ -2512,7 +2545,20 @@
     }
     .waitlist-btn{
         padding: .4rem 1rem;
-        font-size: .65rem;
+        font-size: .7.2rem;
+    }
+    .down{
+        width: 9rem;
+        padding: 3rem -2rem;
+        font-size: 1.2rem;
+    }
+    .first-text .icon{
+        width: 1.35rem;
+        height: 1.3rem;
+        font-size: 1rem;
+    }
+    .icon .bx-check{
+        margin-top: .05rem;
     }
 }
 @media only screen and (max-width:399px){
@@ -2563,29 +2609,51 @@
         border-radius: 1.1rem;
     }
     .navbar .logo a .img-logo2{
-        width: 4.6rem;
+        width: 5rem;
      }
      .navbar .logo a .img-logo1{
-        width: 2rem;
+        width: 2.5rem;
      }
      .waitlist-btn{
-        padding: .4rem .9rem;
-        font-size: .6rem;
+        padding: .4rem .7rem;
+        font-size: .7rem;
     }
     .down{
-        width: 6.4rem;
-        padding: .6rem;
-        font-size: .8rem;
+        width: 9rem;
+        padding: 3rem -2rem;
+        font-size: 1.2rem;
+    }
+    .first2{
+        top: 17%;
+     }
+     .first-text .icon{
+        width: 1.4rem;
+        height: 1.35rem;
+        font-size: 1rem;
+    }
+    .icon .bx-check{
+        margin-top: .1rem;
     }
 }
-@media only screen and (max-width:371px){
+@media only screen and (max-width:375px){
     .first-text .texts{
         font-size: .85rem;
     }
     .waitlist-btn{
-        padding: .4rem .7rem;
-        font-size: .55rem;
+        padding: .3rem .7rem;
+        font-size: .6rem;
     }
+    .down{
+        width: 8.2rem;
+        padding: 3.5rem -2rem;
+        font-size: 1.2rem;
+    }
+    .navbar .logo a .img-logo2{
+        width: 4rem;
+     }
+     .navbar .logo a .img-logo1{
+        width: 2rem;
+     }
 }
 @media only screen and (max-width:362px){
     .back-text h1{
@@ -2600,9 +2668,12 @@
         right: -2.5%;
     }
     .first-text .icon{
-        width: 1.2rem;
-        height: 1.15rem;
+        width: 1.4rem;
+        height: 1.35rem;
         font-size: 1rem;
+    }
+    .icon .bx-check{
+        margin-top: .01rem;
     }
     .first-text .texts{
         font-size: .8rem;
@@ -2616,12 +2687,12 @@
         font-size: .5rem;
     }
     .down{
-        width: 6.4rem;
-        padding: .6rem;
-        font-size: .8rem;
+        width: 8.2rem;
+        padding: 3.5rem -2rem;
+        font-size: 1.2rem;
     }
 }
-@media only screen and (max-width:346px){
+@media only screen and (max-width:351px){
     .back-text h1{
         font-size: 1.1rem;
         line-height: 1.8rem;
@@ -2643,7 +2714,7 @@
     }
     .waitlist-btn{
         padding: .3rem .5rem;
-        font-size: .5rem;
+        font-size: .45rem;
     }
     .first, .second, .third, .fourth{
         height: 3.9rem;
@@ -2654,89 +2725,15 @@
     .fourth{
         margin-top: .7rem;
     }
+    .navbar .logo a .img-logo2{
+        width: 3.5rem;
+     }
+     .navbar .logo a .img-logo1{
+        width: 1.5rem;
+     }
      .down{
-        width: 6.4rem;
-        padding: .6rem;
-        font-size: .7rem;
+        width: 8.2rem;
+        padding: 3.5rem -2rem;
+        font-size: 1.2rem;
     }
-}
-@media only screen and (max-width:312px){
-    .back-text h1{
-        font-size: 1.1rem;
-        line-height: 1.6rem;
-        left: -22.3%;
-        top: 10%;
-    }
-    .background{
-        height: 10.5rem;
-    }
-    .back-text .back-img{
-        width: 49%;
-        height: 6.8rem;
-        top: 35%;
-        right: -3%;
-    }
-    .enjoy1 p{
-        font-size: .9rem;
-    }
-    .third img{
-        border-radius: 1rem;
-    }
-    .fourth img{
-        border-radius: 1rem;
-    }
-    .first img{
-        border-radius: 1rem;
-    }
-    .second img{
-        border-radius: 1rem;
-    }
-    .first, .second, .third, .fourth{
-        height: 3.4rem;
-    }
-    .first-text .icon{
-        width: 1.1rem;
-        height: 1.05rem;
-        font-size: .95rem;
-    }
-    .first-text .texts{
-        font-size: .65rem;
-        margin-left: .4rem;
-    }
-    .wrapper{
-        padding: 0 1rem;
-    }
-    .third{
-        margin-top: 6.5rem;
-    }
-    .fourth{
-        margin-top: .55rem;
-    }
-}
-@media only screen and (max-width:301px){
-    .back-text h1{
-        font-size: 1rem;
-        line-height: 1.6rem;
-        left: -24.3%;
-        top: 5%;
-    }
-    .background{
-        height: 10rem;
-    }
-    .back-text .back-img{
-        width: 49%;
-        height: 7.1rem;
-        top: 29%;
-        right: -1%;
-    }
-    .enjoy1 p{
-        font-size: .76rem;
-        line-height: 1.1rem;
-    }
-    .enjoy h1{
-        font-size: .95rem;
-    }
-    .first, .second, .third, .fourth{
-        height: 3.1rem;
-    }  
 }

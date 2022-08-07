@@ -153,8 +153,8 @@
 <div class="container ms-auto me-auto mt-3 mb-3" style="width: fit-content;">
     <div class="logo footer-logo">
         <a href="/" style="text-decoration: none;">
-            <img class="img-logo1" src="images/logo_logo icon blue copy.png"  alt="">
-            <img class="img-logo2" src="images/logo_text blue only copy.png"   alt="">
+            <img class="img-logo1" src="images/logo_logo icon blue copy.png" style="width:10rem; height:fit-content"  alt="">
+            <img class="img-logo2" src="images/logo_text blue only copy.png" style="width:10rem; height:fit-content"  alt="">
         </a>
     </div>
 </div>

@@ -28,11 +28,11 @@ body {
     width: 5rem !important;
     height: auto !important;
   }
-  .img-logo-f2 img {
+  /* .img-logo-f2 img {
     object-fit: contain !important;
     width: 100% !important;
     height: 100% !important;
-  }
+  } */
   .img-logo-f2 {
     width: 10rem !important;
     height: auto !important;

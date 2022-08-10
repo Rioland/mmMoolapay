@@ -6,7 +6,9 @@ body {
     word-spacing: 0.2rem !important;
     letter-spacing: 0.3rem !important;
   } */
-  
+  a{
+    text-decoration: none;
+  }
   .myfotercontainer {
     height: fit-content;
     min-width: 400px;

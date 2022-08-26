@@ -7,23 +7,7 @@ body {
     letter-spacing: 0.3rem !important;
   } */
   
-  .myfotercontainer {
-    height: fit-content;
-    min-width: 400px;
-    background: url("../images/bg.png") !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    border-radius: 3rem;
-  }
-  .w-50 {
-    width: 50% !important;
-    min-width: 50% !important;
-  }
-  .bbt {
-    /* padding: 1.3rem; */
-    border-radius: 40px;
-  }
+  
   .img-logo-f1{
     width: 5rem !important;
     height: auto !important;

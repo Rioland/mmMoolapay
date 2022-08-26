@@ -11,6 +11,7 @@
     position: relative;
     background-color: #ffffff;
 }
+
 p{
     font-size: clamp(1.4rem, 1.8vw, 1.8rem);
     line-height: 2.3rem;
@@ -218,6 +219,7 @@ p{
     line-height: 6rem;
     font-weight: normal;
 }
+
 .hero-text2{
     display: none;
 }
@@ -966,6 +968,9 @@ p{
     .fourth-back .fourth-text{
         width: 53%;
         margin: 3.6rem 2.2rem;
+    }
+    .hr{
+        margin-top: 2rem;
     }
 }
 @media only screen and (max-width:953px){

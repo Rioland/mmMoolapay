@@ -11,18 +11,14 @@
         
     <link rel="shortcut icon" href="images/logo_logo icon blue copy.png" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/footer1.css">
 </head>
 <body>
     <div class="wrapper"> 
@@ -50,7 +46,7 @@
         <div class="enjoy-container">
             <div class="enjoy1">
                 <h1 class="h-one">Enjoy fast, easy <br>and seamless<br> transactions</h1>
-                <h1 class="h-two">Enjoy Fast<br>and Seamless<br> Transactions</h1>
+                <h1 class="h-two">Enjoy fast<br>and seamless<br> transactions</h1>
                 <p class="p-one">With MoolaPay, you can carry<br> out transactions at the snap of<br> a finger</p>
                 <p class="p-two">With MoolaPay, you can<br> carry out transactions at<br> the snap of a finger</p>
                 <a class="waitlist-btn wait-btn" href="about">About Us</a>
@@ -63,7 +59,7 @@
                         <div class="icon"><i class='bx bx-check'></i></div>
                         <div class="texts">
                             <p class="p-one">Save money</p>
-                            <p class="p-two">Save Money</p>
+                            <p class="p-two">Save money</p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +69,7 @@
                         <div class="icon"><i class='bx bx-check'></i></div>
                         <div class="texts">
                             <p class="p-one">Airtime <br> recharge</p>
-                            <p class="p-two">Airtime <br> Recharge</p>
+                            <p class="p-two">Airtime <br> recharge</p>
 
                         </div>
                     </div>
@@ -86,7 +82,7 @@
                     <div class="icon"><i class='bx bx-check'></i></div>
                     <div class="texts">
                             <p class="p-one">Send and <br>receive money</p>
-                            <p class="p-two">Send and <br>Receive Money</p>
+                            <p class="p-two">Send and <br>receive Money</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +92,7 @@
                     <div class="icon"><i class='bx bx-check'></i></div>
                     <div class="texts">
                         <p class="p-one">Pay bills</p>
-                        <p class="p-two">Pay Bills</p>
+                        <p class="p-two">Pay bills</p>
                     </div>
                 </div>
             </div>
@@ -105,8 +101,10 @@
            </div>
     <a class="waitlist-btn down" href="about">About Us</a>
     </div>
+    
     <?php  
   require("./footer.php")
     ?>
+
 </body>
 </html>
